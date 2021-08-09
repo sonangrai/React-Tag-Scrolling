@@ -4,7 +4,7 @@ import data from "./fruits.json";
 import Tag from "./component/Tag";
 import { useState, useRef } from "react";
 
-export default function App() {
+export default function App({ passedData }) {
   let scrl = useRef(null);
   const [scrollX, setscrollX] = useState(0);
   const [scrolEnd, setscrolEnd] = useState(false);
@@ -44,7 +44,7 @@ export default function App() {
         </button>
       )}
       <ul ref={scrl} onScroll={scrollCheck}>
-        {data.fruits.map((d, i) => (
+        {(passedData || data).fruits.map((d, i) => (
           <Tag data={d} key={i} />
         ))}
       </ul>
