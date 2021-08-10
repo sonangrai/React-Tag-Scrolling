@@ -1,48 +1,220 @@
 {
   "description": "A list of fruits.",
   "fruits": [
-    "apple",
-    "apricot",
-    "avocado",
-    "banana",
-    "bell pepper",
-    "bilberry",
-    "blackberry",
-    "blackcurrant",
-    "coconut",
-    "cranberry",
-    "cucumber",
-    "currant",
-    "damson",
-    "date",
-    "dragonfruit",
-    "durian",
-    "eggplant",
-    "elderberry",
-    "feijoa",
-    "fig",
-    "goji berry",
-    "gooseberry",
-    "grape",
-    "grapefruit",
-    "guava",
-    "honeydew",
-    "huckleberry",
-    "jackfruit",
-    "jambul",
-    "jujube",
-    "kiwi fruit",
-    "kumquat",
-    "lemon",
-    "lime",
-    "loquat",
-    "lychee",
-    "mandarine",
-    "mango",
-    "mulberry",
-    "nectarine",
-    "nut",
-    "olive",
-    "orange"
+    {
+      "id": 1,
+      "title": "apple",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "apricot",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "avocado",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "banana",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "bell pepper",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "bilberry",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "blackberry",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "blackcurrant",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "coconut",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "cranberry",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "cucumber",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "currant",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "damson",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "date",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "dragonfruit",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "durian",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "eggplant",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "elderberry",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "feijoa",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "fig",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "goji berry",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "gooseberry",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "grape",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "grapefruit",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "guava",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "honeydew",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "huckleberry",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "jackfruit",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "jambul",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "jujube",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "kiwi fruit",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "kumquat",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "lemon",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "lime",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "loquat",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "lychee",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "mandarine",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "mango",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "mulberry",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "nectarine",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "nut",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "olive",
+      "url": "#!"
+    },
+    {
+      "id": 1,
+      "title": "orange",
+      "url": "#!"
+    }
   ]
 }

@@ -1,14 +1,12 @@
 .App {
   text-align: center;
-  width: 600px;
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: "Nanum Gothic", sans-serif;
 }
 
-ul {
+.lists {
   display: flex;
   align-items: center;
   list-style: none;
@@ -16,13 +14,13 @@ ul {
   overflow-x: scroll;
   scroll-behavior: smooth;
 }
-ul::-webkit-scrollbar {
+.lists::-webkit-scrollbar {
   background: transparent; /* make scrollbar transparent */
   -webkit-appearance: none;
   width: 0;
   height: 0;
 }
-ul li {
+.lists .listItem {
   background: #ff61f6;
   color: #fff;
   padding: 8px;
@@ -31,8 +29,13 @@ ul li {
   white-space: nowrap;
   text-transform: capitalize;
 }
+.lists .listItem .link {
+  text-decoration: none;
+  color: #fff;
+}
 
-button {
+.prev,
+.next {
   border: 0;
   color: #777;
   font-size: 24px;

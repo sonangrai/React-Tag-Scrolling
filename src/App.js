@@ -43,9 +43,9 @@ export default function App({ passedData }) {
           <i className="fa fa-angle-left"></i>
         </button>
       )}
-      <ul ref={scrl} onScroll={scrollCheck}>
-        {(passedData || data).fruits.map((d, i) => (
-          <Tag data={d} key={i} />
+      <ul className={styles.lists} ref={scrl} onScroll={scrollCheck}>
+        {(passedData || data).fruits.map((d) => (
+          <Tag data={d} key={d.id} />
         ))}
       </ul>
       {!scrolEnd && (
