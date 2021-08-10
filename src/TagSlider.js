@@ -4,7 +4,7 @@ import data from "./fruits.json";
 import Tag from "./component/Tag";
 import { useState, useRef } from "react";
 
-export default function App({ passedData }) {
+export default function TagSlider({ passedData }) {
   let scrl = useRef(null);
   const [scrollX, setscrollX] = useState(0);
   const [scrolEnd, setscrolEnd] = useState(false);

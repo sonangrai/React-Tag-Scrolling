@@ -1,5 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App.js";
+import TagSlider from "./TagSlider.js";
 
-ReactDOM.render(<App />, document.getElementById("app"));
+ReactDOM.render(<TagSlider />, document.getElementById("app"));

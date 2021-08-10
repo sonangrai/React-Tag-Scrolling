@@ -1,3 +1,5 @@
 /node_modules
-/dist
-/src/*.json
+/src
+demo
+.babelrc
+webpack.config.js
