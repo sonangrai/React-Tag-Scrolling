@@ -1,19 +1,28 @@
 {
-  "name": "tag-slider",
+  "name": "react-tag-slider",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack server --mode development --open"
+    "dev": "webpack server --mode development --open",
+    "build": "webpack"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sonangrai/React-Tag-Scrolling"
+  },
+  "keywords": [
+    "react",
+    "scroll",
+    "tag scroll"
+  ],
   "author": {
     "name": "Rai Sonahang",
     "url": "https://www.sonahangrai.com",
     "email": "shonahangrae@gmail.com"
   },
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
