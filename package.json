@@ -8,7 +8,11 @@
     "dev": "webpack server --mode development --open"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Rai Sonahang",
+    "url": "https://www.sonahangrai.com",
+    "email": "shonahangrae@gmail.com"
+  },
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.15.0",
