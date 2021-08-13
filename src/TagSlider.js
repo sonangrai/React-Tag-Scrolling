@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./App.module.css";
 import data from "./fruits.json";
-import Tag from "./component/Tag";
 import { useState, useRef } from "react";
 
 export default function TagSlider({ passedData }) {
@@ -45,7 +44,11 @@ export default function TagSlider({ passedData }) {
       )}
       <ul className={styles.lists} ref={scrl} onScroll={scrollCheck}>
         {(passedData || data).fruits.map((d) => (
-          <Tag data={d} key={d.id} />
+          <li className={styles.listItem} key={d.id}>
+            <a className={styles.link} href={d.url}>
+              {d.title}
+            </a>
+          </li>
         ))}
       </ul>
       {!scrolEnd && (
