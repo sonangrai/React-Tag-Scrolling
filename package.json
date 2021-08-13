@@ -4,7 +4,7 @@
   "description": "",
   "main": "./src/index.js",
   "scripts": {
-    "publish:npm": "rimraf lib && mkdir lib &&  babel src/TagSlider.js src/App.module.css -d lib --copy-files",
+    "publish:npm": "rimraf dist && mkdir dist &&  babel src/TagSlider.js src/App.module.css -d dist --copy-files",
     "dev": "webpack server --mode development --open",
     "build": "webpack"
   },
