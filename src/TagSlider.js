@@ -15,7 +15,7 @@ export default function TagSlider({ passedData }) {
     setscrollX(scrollX + shift);
 
     if (
-      scrl.current.scrollWidth - scrl.current.scrollLeft ===
+      Math.floor(scrl.current.scrollWidth - scrl.current.scrollLeft) <=
       scrl.current.offsetWidth
     ) {
       setscrolEnd(true);
@@ -27,7 +27,7 @@ export default function TagSlider({ passedData }) {
   const scrollCheck = () => {
     setscrollX(scrl.current.scrollLeft);
     if (
-      scrl.current.scrollWidth - scrl.current.scrollLeft ===
+      Math.floor(scrl.current.scrollWidth - scrl.current.scrollLeft) <=
       scrl.current.offsetWidth
     ) {
       setscrolEnd(true);
