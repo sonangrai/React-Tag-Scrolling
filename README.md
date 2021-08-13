@@ -7,7 +7,7 @@ React Tag Scroller is a simple horizontal tag scroller. It can be used to create
 ```
 import TagSlider from "react-tag-slider"
 
-<TagSlider data={} />
+<TagSlider data={data} NextBtn="+" PreviousBtn="-" myStyle="mySlide" />
 ```
 
 ## Props Format

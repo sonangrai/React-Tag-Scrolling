@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import styles from "./App.module.css";
 import { useState, useRef } from "react";
 
-const TagSlider = ({ data, style, PreviousBtn, NextBtn }) => {
+const TagSlider = ({ data, myStyle, PreviousBtn, NextBtn }) => {
   let scrl = useRef(null);
   const [scrollX, setscrollX] = useState(0);
   const [scrolEnd, setscrolEnd] = useState(false);
@@ -36,7 +36,7 @@ const TagSlider = ({ data, style, PreviousBtn, NextBtn }) => {
   };
 
   return (
-    <div className={styles.tagSlider + " " + style}>
+    <div className={styles.tagSlider + " " + myStyle}>
       {scrollX !== 0 && (
         <button className={styles.prev} onClick={() => slide(-50)}>
           {PreviousBtn}
@@ -213,7 +213,7 @@ TagSlider.defaultProps = {
       url: "#!",
     },
   ],
-  style: "tagSlider",
+  myStyle: "tagSlider",
   PreviousBtn: "<",
   NextBtn: ">",
 };
