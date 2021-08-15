@@ -1,6 +1,6 @@
 # React Tag Scroller
 
-![alt text](https://github.com/sonangrai/React-Tag-Scrolling/master/screenshot.png?raw=true)
+![alt text](https://github.com/sonangrai/React-Tag-Scrolling/blob/master/screenshot.png?raw=true)
 
 React Tag Scroller is a simple horizontal tag scroller. It can be used to create a horizontal scroller where the datas can be scrolled with scroll or with button click.
 
