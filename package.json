@@ -1,6 +1,6 @@
 {
   "name": "react-tag-slider",
-  "version": "1.0.7",
+  "version": "1.0.71",
   "description": "",
   "main": "./dist/TagSlider.js",
   "scripts": {
