@@ -1,10 +1,10 @@
 {
   "name": "react-tag-slider",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "./dist/TagSlider.js",
   "scripts": {
-    "publish:npm": "rimraf dist && mkdir dist &&  babel src/TagSlider.js src/App.module.css -d dist --copy-files",
+    "publish:npm": "rimraf dist && mkdir dist &&  babel src/TagSlider.js src/App.module.css arc/screenshot.png -d dist --copy-files",
     "dev": "webpack server --mode development --open",
     "build": "webpack"
   },
