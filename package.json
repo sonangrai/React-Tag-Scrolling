@@ -2,7 +2,7 @@
   "name": "react-tag-slider",
   "version": "1.0.72",
   "description": "",
-  "main": "./dist/TagSlider.js",
+  "main": "./src/index.js",
   "scripts": {
     "publish:npm": "rimraf dist && mkdir dist &&  babel src/TagSlider.js src/App.module.css -d dist --copy-files",
     "dev": "webpack server --mode development --open",

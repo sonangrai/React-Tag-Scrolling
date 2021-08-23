@@ -1,7 +1,6 @@
-import React from "react";
+import React, { useRef, useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import styles from "./App.module.css";
-import { useState, useRef } from "react";
 
 const TagSlider = ({ data, myStyle, PreviousBtn, NextBtn }) => {
   let scrl = useRef(null);
@@ -34,6 +33,19 @@ const TagSlider = ({ data, myStyle, PreviousBtn, NextBtn }) => {
       setscrolEnd(false);
     }
   };
+
+  useEffect(() => {
+    //Check width of the scollings
+    if (
+      scrl.current &&
+      scrl?.current?.scrollWidth === scrl?.current?.offsetWidth
+    ) {
+      setscrolEnd(true);
+    } else {
+      setscrolEnd(false);
+    }
+    return () => {};
+  }, [scrl?.current?.scrollWidth, scrl?.current?.offsetWidth]);
 
   if (data) {
     return (
